@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" fx:controller="edit_user.EditUserScreenController" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="817.0" prefWidth="1371.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffb21f" height="157.0" stroke="BLACK" strokeType="INSIDE" width="1348.0" />
+      <Label layoutX="125.0" layoutY="75.0" text="Edit User" textFill="WHITE">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="31.0" />
+         </font>
+      </Label>
+      <Label layoutX="61.0" layoutY="187.0" text="User Name to Edit">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="22.0" />
+         </font>
+      </Label>
+      <TextField fx:id="username" layoutX="336.0" layoutY="181.0" prefHeight="39.0" prefWidth="525.0" promptText="UserName" />
+      <Label layoutX="61.0" layoutY="253.0" text="New User Name">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="57.0" layoutY="323.0" text="New Email Id">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="57.0" layoutY="395.0" text="New Password">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="58.0" layoutY="475.0" text="New Confirm Password">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="58.0" layoutY="569.0" text="New User Role">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="22.0" />
+         </font>
+      </Label>
+      <TextField fx:id="new_username" layoutX="336.0" layoutY="253.0" prefHeight="39.0" prefWidth="525.0" promptText="New Username" />
+      <TextField fx:id="new_email_id" layoutX="336.0" layoutY="323.0" prefHeight="39.0" prefWidth="525.0" promptText="New Email ID" />
+      <TextField fx:id="new_password" layoutX="336.0" layoutY="396.0" prefHeight="39.0" prefWidth="525.0" promptText="New Password" />
+      <TextField fx:id="new_confirmpassword" layoutX="336.0" layoutY="469.0" prefHeight="39.0" prefWidth="525.0" promptText="New Confirm Password" />
+      <TextField fx:id="new_userrole" layoutX="336.0" layoutY="563.0" prefHeight="39.0" prefWidth="525.0" promptText="New Userrole" />
+      <Button fx:id="back" layoutX="336.0" layoutY="628.0" mnemonicParsing="false" onAction="#back_button" style="-fx-background-color: ffffff;" text="Back" textFill="#eb1919">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="23.0" />
+         </font>
+      </Button>
+      <Button fx:id="save" layoutX="685.0" layoutY="628.0" mnemonicParsing="false" onAction="#save_button" style="-fx-background-color: ffb21f;" text="Save" textFill="WHITE">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="22.0" />
+         </font></Button>
+      <Button fx:id="Edit" layoutX="885.0" layoutY="181.0" mnemonicParsing="false" onAction="#editButton" style="-fx-background-color: #ffb21f;" text="Edit" textFill="WHITE">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="20.0" />
+         </font>
+      </Button>
+      <Circle fill="#0a4175" layoutX="835.0" layoutY="90.0" radius="38.0" stroke="BLACK" strokeType="INSIDE" />
+      <Label layoutX="809.0" layoutY="52.0" text="G" textFill="WHITE">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="65.0" />
+         </font>
+      </Label>
+      <Label layoutX="885.0" layoutY="75.0" text="Gayatri (Admin)" textFill="WHITE">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>

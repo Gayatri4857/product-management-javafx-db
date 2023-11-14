@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" fx:controller="search_product.SearchProductScreenController" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="866.0" prefWidth="1290.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff991f" height="158.0" layoutX="-6.0" layoutY="-1.0" stroke="BLACK" strokeType="INSIDE" width="1296.0" />
+      <Label layoutX="78.0" layoutY="100.0" text="Search Product" textFill="WHITE">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="23.0" />
+         </font>
+      </Label>
+      <Circle fill="#16228d" layoutX="830.0" layoutY="93.0" radius="34.0" stroke="BLACK" strokeType="INSIDE" />
+      <Label layoutX="808.0" layoutY="60.0" text="G" textFill="WHITE">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="56.0" />
+         </font>
+      </Label>
+      <Label layoutX="881.0" layoutY="76.0" text="Gayatri (Admin)" textFill="WHITE">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <TextField fx:id="Search_ProductName" layoutX="642.0" layoutY="214.0" prefHeight="39.0" prefWidth="347.0" promptText="Search Product Name" />
+      <TextField fx:id="productName" layoutX="642.0" layoutY="287.0" prefHeight="39.0" prefWidth="347.0" promptText="Product Name" />
+      <TextField fx:id="productID" layoutX="642.0" layoutY="358.0" prefHeight="39.0" prefWidth="347.0" promptText="Product ID" />
+      <TextField fx:id="productQuality" layoutX="642.0" layoutY="500.0" prefHeight="39.0" prefWidth="347.0" promptText="Product Quality" />
+      <TextField fx:id="productPrice" layoutX="642.0" layoutY="427.0" prefHeight="39.0" prefWidth="347.0" promptText="Product Price" />
+      <TextField fx:id="productCategory" layoutX="642.0" layoutY="569.0" prefHeight="39.0" prefWidth="347.0" promptText="Product Category" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="110.0" layoutY="139.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutY="110.0" pickOnBounds="true" preserveRatio="true" />
+      <Label layoutX="276.0" layoutY="220.0" text="Search Product Name">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="276.0" layoutY="294.0" text="Product Name">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="276.0" layoutY="365.0" text="Product ID">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="279.0" layoutY="434.0" text="Product Price">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="279.0" layoutY="507.0" text="Product Quality">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="276.0" layoutY="576.0" text="Product Category">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="21.0" />
+         </font>
+      </Label>
+      <Button fx:id="Search" layoutX="1072.0" layoutY="227.0" mnemonicParsing="false" onAction="#search_button" style="-fx-background-color: #20b85d;" text="Search" textFill="WHITE">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="22.0" />
+         </font>
+      </Button>
+      <Button fx:id="Delete" layoutX="418.0" layoutY="646.0" mnemonicParsing="false" onAction="#delete_button" style="-fx-background-color: ffffff;" text="Delete" textFill="#ee1717">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="21.0" />
+         </font>
+      </Button>
+      <Button fx:id="Edit" layoutX="769.0" layoutY="646.0" mnemonicParsing="false" onAction="#edit_button" style="-fx-background-color: #ff991f;" text="Edit" textFill="WHITE">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="21.0" />
+         </font>
+      </Button>
+      <Button fx:id="Back" layoutX="161.0" layoutY="646.0" mnemonicParsing="false" onAction="#back_button" style="-fx-background-color: #ff991f;" text="Back" textFill="WHITE">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="21.0" />
+         </font>
+      </Button>
+   </children>
+</Pane>

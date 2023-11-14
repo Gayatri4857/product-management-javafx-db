@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" fx:controller="search_user.SearchUserScreenController" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="786.0" prefWidth="1273.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff931f" height="137.0" layoutX="-3.0" stroke="BLACK" strokeType="INSIDE" width="1305.0" />
+      <Label layoutX="67.0" layoutY="42.0" text="Search User" textFill="WHITE">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="37.0" />
+         </font>
+      </Label>
+      <Label layoutX="87.0" layoutY="203.0" text="Search User Name">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="86.0" layoutY="270.0" text="User Name">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="86.0" layoutY="346.0" text="Email ID">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="86.0" layoutY="421.0" text="Password">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="86.0" layoutY="495.0" text="Confirm Password">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="86.0" layoutY="561.0" text="User Role">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="UserName" layoutX="471.0" layoutY="195.0" prefHeight="39.0" prefWidth="335.0" promptText="username" />
+      <TextField fx:id="user_name" layoutX="469.0" layoutY="262.0" prefHeight="39.0" prefWidth="335.0" promptText="username" />
+      <TextField fx:id="Email_id" layoutX="469.0" layoutY="338.0" prefHeight="39.0" prefWidth="335.0" promptText="email_id" />
+      <TextField fx:id="Password" layoutX="470.0" layoutY="413.0" prefHeight="39.0" prefWidth="335.0" promptText="password" />
+      <TextField fx:id="ConfirmPassword" layoutX="471.0" layoutY="487.0" prefHeight="23.0" prefWidth="335.0" promptText="confirm password" />
+      <TextField fx:id="UserRole" layoutX="469.0" layoutY="561.0" prefHeight="11.0" prefWidth="335.0" promptText="userrole" />
+      <Button fx:id="BackButton" layoutX="231.0" layoutY="625.0" mnemonicParsing="false" onAction="#back_button" style="-fx-background-color: ff931f;" text="Back" textFill="WHITE">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="Edit_Button" layoutX="656.0" layoutY="625.0" mnemonicParsing="false" onAction="#edit_button" style="-fx-background-color: ff931f;" text="Edit" textFill="WHITE">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="Search" layoutX="876.0" layoutY="184.0" mnemonicParsing="false" onAction="#search_button" style="-fx-background-color: #20c22d;" text="Search" textFill="WHITE">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="Delete" layoutX="420.0" layoutY="623.0" mnemonicParsing="false" onAction="#delete_button" style="-fx-background-color: ffffff;" text="Delete" textFill="#ff1717">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="20.0" />
+         </font>
+      </Button>
+      <Circle fill="#094f90" layoutX="834.0" layoutY="86.0" radius="42.0" stroke="BLACK" strokeType="INSIDE" />
+      <Label layoutX="811.0" layoutY="51.0" text="G" textFill="WHITE">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="59.0" />
+         </font>
+      </Label>
+      <Label layoutX="904.0" layoutY="80.0" text="Gayatri (Admin)" textFill="WHITE">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>
